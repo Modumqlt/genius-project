@@ -69,27 +69,27 @@
 //2)cherry 58, 1,3
 //3)orange 89, 3,4
 
-const infoFruits = {
-    name: "banana",
-    price: 30,
-    number: 4.5,
-    showInfo: function  () {
-        console.log("fruits: " + this.name + " cost: " + Math.round(this.price * this.number));
-},
-};    
+//const infoFruits = {
+//    name: "banana",
+//    price: 30,
+//    number: 4.5,
+//    showInfo: function  () {
+//        console.log("fruits: " + this.name + " cost: " + Math.round((this.price * this.number)*100)/100);
+//},
+//};    
 
-Fruits2 = {
-    name: "cherry",
-    price: 58,
-    number: 1.3,
-}
+//Fruits2 = {
+//    name: "cherry",
+//    price: 58,
+//    number: 1.3,
+//}
 
-Fruits3 = {
-    name: "orange",
-    price: 89,
-    number: 3.4,
-}
+//Fruits3 = {
+//    name: "orange",
+//    price: 89,
+//    number: 3.4,
+//}
 
-infoFruits.showInfo();//135
-infoFruits.showInfo.call(Fruits2);//75
-infoFruits.showInfo.call(Fruits3);//303
+//infoFruits.showInfo();//135
+//infoFruits.showInfo.call(Fruits2);//75
+//infoFruits.showInfo.call(Fruits3);//303
